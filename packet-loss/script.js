@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let l=+loss.value;if(!l){res.innerText='Enter value';return;}res.innerText=l<1?'No issue':l<5?'Moderate':'Severe';}

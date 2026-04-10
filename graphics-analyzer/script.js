@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let q=+quality.value;if(!q){res.innerText='Enter value';return;}res.innerText=q>5?'High quality (low FPS)':'Low quality (high FPS)';}

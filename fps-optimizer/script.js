@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let g=+gpu.value,s=+settings.value;if(!g||!s){res.innerText='Enter values';return;}res.innerText=`FPS: ${(g*100/s).toFixed(2)}`;}

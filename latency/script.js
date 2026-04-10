@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let p=+ping.value;if(!p){res.innerText='Enter value';return;}res.innerText=`Delay: ${(p/1000).toFixed(3)}s`; }

@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let p=+ping.value;if(!p){res.innerText='Enter value';return;}res.innerText=p<50?'Optimal':p<100?'Playable':'Laggy';}
